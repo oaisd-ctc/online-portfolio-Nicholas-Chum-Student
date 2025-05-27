@@ -1,3 +1,90 @@
 body {
-    
+    height: 100%;
+    overflow: hidden;
+
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 76.5%;
+    display: block;
+    margin: auto;
+    width: 75%;
+
+    user-select: none;
+}
+body > div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -26em;
+    margin-left: 2em;
+    width: 38em;
+    height: 52em;
+}
+div > *{
+    text-align: center;
+}
+div > img{
+    display: block;
+    margin: auto;
+    position: relative;
+}
+div > button{
+    opacity: 0;
+    display: none;
+    display: block;
+    cursor: pointer;
+
+    rotate: -90deg;
+    width: 137%;
+    height: 5%;
+
+    position: absolute;
+    top: 47.5%;
+    left: 28.25%;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 2em;
+}
+.test {
+    margin-left: -41em;
+    rotate:-1deg;
+    z-index: 3;
+
+    background-color: gray;
+}
+.test2 {
+    margin-left: -41em;
+    rotate:-2deg;
+    z-index: 2;
+
+    background-color: rgb(168, 168, 168);
+}
+.test3 {
+    margin-left: -41em;
+    rotate:-3deg;
+    z-index: 1;
+
+    background-color: rgb(204, 204, 204);
+}
+.view {
+    rotate: 1deg;
+    z-index: 3;
+
+    background-color: green;
+}
+.view2 {
+    rotate: 2deg;
+    z-index: 2;
+
+    background-color: aqua;
+}
+.view3 {
+    rotate: 3deg;
+    z-index: 1;
+
+    background-color: violet;
 }
