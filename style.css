@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     height: 100%;
     overflow: hidden;
 
@@ -87,4 +88,7 @@ h2{
     z-index: 1;
 
     background-color: violet;
+=======
+    
+>>>>>>> 9990c06a78fe06cd228e194100ebcb434887296c
 }
