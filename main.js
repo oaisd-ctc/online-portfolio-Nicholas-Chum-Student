@@ -9,15 +9,16 @@ function myMove() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 272) {
+        if (pos <= 272) {
+            pos = 272;
             clearInterval(id);
-            elem.style.zIndex= 1;
+            elem.style.zIndex = 1;
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = true;
             reversebutton.disabled = false;
         } else {
-            pos--;
-            rot -= 0.0056;
+            pos -= 3;
+            rot -= 0.0168;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -34,15 +35,16 @@ function myMove2() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 272) {
+        if (pos <= 272) {
+            pos = 272;
             clearInterval(id);
             elem.style.zIndex = 2;
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = true;
             reversebutton.disabled = false;
         } else {
-            pos--;
-            rot -= 0.0043;
+            pos -= 3;
+            rot -= 0.0129;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -59,15 +61,16 @@ function myMove3() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 272) {
+        if (pos <= 272) {
+            pos = 272;
             clearInterval(id);
             elem.style.zIndex = 3;
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = true;
             reversebutton.disabled = false;
         } else {
-            pos--;
-            rot -= 0.003;
+            pos -= 3;
+            rot -= 0.009;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -85,14 +88,15 @@ function myMove4() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 272) {
+        if (pos <= 272) {
+            pos = 272;
             clearInterval(id);
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = true;
             reversebutton.disabled = false;
         } else {
-            pos--;
-            rot -= 0.0085;
+            pos -= 3;
+            rot -= 0.0255;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -110,14 +114,15 @@ function myMove5() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 272) {
+        if (pos <= 272) {
+            pos = 272;
             clearInterval(id);
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = true;
             reversebutton.disabled = false;
         } else {
-            pos--;
-            rot -= 0.00575;
+            pos -= 3;
+            rot -= 0.01725;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -135,14 +140,15 @@ function myMove6() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 272) {
+        if (pos <= 272) {
+            pos = 272;
             clearInterval(id);
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = true;
             reversebutton.disabled = false;
         } else {
-            pos--;
-            rot -= 0.003;
+            pos -= 3;
+            rot -= 0.009;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -160,20 +166,21 @@ function myReverseMove() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 967) {
+        if (pos >= 967) {
+            pos = 967;
             clearInterval(id);
-            elem.style.zIndex= 1;
+            elem.style.zIndex = 1;
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = false;
             reversebutton.disabled = true;
-            elem.style.zIndex= 8;
+            elem.style.zIndex = 8;
         } else {
-            pos++;
-            rot += -0.0015;
+            pos += 3;
+            rot += -0.0045;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
-            elem.style.zIndex= 8;
+            elem.style.zIndex = 8;
         }
     }
 }
@@ -187,20 +194,21 @@ function myReverseMove2() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 967) {
+        if (pos >= 967) {
+            pos = 967;
             clearInterval(id);
-            elem.style.zIndex= 1;
+            elem.style.zIndex = 1;
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = false;
             reversebutton.disabled = true;
-            elem.style.zIndex= 7;
+            elem.style.zIndex = 7;
         } else {
-            pos++;
-            rot += 0.0056;
+            pos += 3;
+            rot += 0.0168;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
-            elem.style.zIndex= 7;
+            elem.style.zIndex = 7;
         }
     }
 }
@@ -214,20 +222,21 @@ function myReverseMove3() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 967) {
+        if (pos >= 967) {
+            pos = 967;
             clearInterval(id);
-            elem.style.zIndex= 1;
+            elem.style.zIndex = 1;
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = false;
             reversebutton.disabled = true;
-            elem.style.zIndex= 4;
+            elem.style.zIndex = 4;
         } else {
-            pos++;
-            rot += 0.0056;
+            pos += 3;
+            rot += 0.0168;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
-            elem.style.zIndex= 4;
+            elem.style.zIndex = 4;
         }
     }
 }
@@ -241,19 +250,20 @@ function myReverseMove4() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 967) {
+        if (pos >= 967) {
+            pos = 967;
             clearInterval(id);
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = false;
             reversebutton.disabled = true;
-            elem.style.zIndex= 3;
+            elem.style.zIndex = 3;
         } else {
-            pos++;
-            rot += 0.0056;
+            pos += 3;
+            rot += 0.0168;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
-            elem.style.zIndex= 3;
+            elem.style.zIndex = 3;
         }
     }
 }
@@ -267,15 +277,16 @@ function myReverseMove5() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 967) {
+        if (pos >= 967) {
+            pos = 967;
             clearInterval(id);
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = false;
             reversebutton.disabled = true;
-            elem.style.zIndex= 2;
+            elem.style.zIndex = 2;
         } else {
-            pos++;
-            rot += 0.0056;
+            pos += 3;
+            rot += 0.0168;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';
@@ -292,15 +303,16 @@ function myReverseMove6() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-        if (pos == 967) {
+        if (pos >= 967) {
+            pos = 967;
             clearInterval(id);
             buttons.forEach(buttons => buttons.disabled = false);
             button.disabled = false;
             reversebutton.disabled = true;
-            elem.style.zIndex= 1;
+            elem.style.zIndex = 1;
         } else {
-            pos++;
-            rot += 0.0056;
+            pos += 3;
+            rot += 0.0168;
             buttons.forEach(buttons => buttons.disabled = true);
             elem.style.left = pos + 'px';
             elem.style.transform = 'rotate(' + rot + 'deg)';

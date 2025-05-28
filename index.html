@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <script src="{path/to/scripts}/page-flip.browser.js"></script>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <title>Portfolio</title>
 </head>
+
 <body>
     <img src="./Images/Folder.png" height="960px" width="1472px">
     <!--<div class="test">
@@ -23,41 +25,85 @@
         <img src="./Images/Github.png">
         <h2>Welcome!</h2>
         <button type="button" onclick="myMove()" class="viewbutton" id="viewbutton">skbidi test</button>
-        <button type="button" onclick="myReverseMove()" class="reverseviewbutton" id="reverseviewbutton" disabled>skbidi test2</button>
+        <button type="button" onclick="myReverseMove()" class="reverseviewbutton" id="reverseviewbutton" disabled>skbidi
+            test2</button>
     </div>
     <div class="view2">
         <h1>Experience</h1>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
+        <img src="./Images/HTMLCSS2.png" id="HTMLCSS2" style="left: -20%;">
+        <img src="./Images/CSharp.png" id="CSharp" style="left: 20%;top: -15%">
+        <img src="./Images/Unity.png" id="Unity" style="left: -20%;top: -15%">
+        <img src="./Images/Blender.png" id="Blender" style="left: 20%;top: -30%">
+        <img src="./Images/Photoshop.png" id="Photoshop" style="left: -20%;top: -25%">
+        <img src="./Images/Photopea.png" id="Photopea" style="left: 20%;top: -40%">
         <button type="button" onclick="myMove2()" class="viewbutton" id="viewbutton2">skbidi test</button>
-        <button type="button" onclick="myReverseMove2()" class="reverseviewbutton" id="reverseviewbutton2" disabled>skbidi test2</button>
+        <button type="button" onclick="myReverseMove2()" class="reverseviewbutton" id="reverseviewbutton2"
+            disabled>skbidi test2</button>
     </div>
     <div class="view3">
         <h1>Most Recent Project</h1>
+        <h2>Enfarming</h2>
+        <h3 style="margin-left: 5%;margin-right: 5%;">The game is a 3d game based around 2d crops. This is meant to be a calm and delightful game that a person can play, without worries. </h3>
+        <img src="./Images/Enfarming.png" id="Enfarming" style="left: -20%;">
+        <img src="./Images/Enfarming2.png" id="Enfarming2" style="left: 20%;">
         <button type="button" onclick="myMove3()" class="viewbutton" id="viewbutton3">skbidi test</button>
-        <button type="button" onclick="myReverseMove3()" class="reverseviewbutton" id="reverseviewbutton3" disabled>skbidi test2</button>
+        <button type="button" onclick="myReverseMove3()" class="reverseviewbutton" id="reverseviewbutton3"
+            disabled>skbidi test2</button>
     </div>
     <div class="view4">
         <h1>Certifications</h1>
+        <img src="./Images/ITF.png" id="ITF" style="left: -20%;top: -7.5%">
+        <img src="./Images/DeviceConfigMang.png" id="DeviceConfig" style="left: 20%;top: -15%">
+        <img src="./Images/Javascript.png" id="JS" style="left: -20%;top: -25%">
+        <img src="./Images/HTMLCSS.png" id="HTMLCSS" style="left: 20%;top: -30%">
+        <img src="./Images/UnityProgrammer.png" id="UnityCert" style="left: -20%;top: -35%">
         <button type="button" onclick="myMove4()" class="viewbutton" id="viewbutton4">skbidi test</button>
-        <button type="button" onclick="myReverseMove4()" class="reverseviewbutton" id="reverseviewbutton4" disabled>skbidi test2</button>
+        <button type="button" onclick="myReverseMove4()" class="reverseviewbutton" id="reverseviewbutton4"
+            disabled>skbidi test2</button>
     </div>
     <div class="view5">
         <h1>About Me</h1>
+        <h3 style="margin-left: 5%;margin-right: 5%;">I’m currently a full time student attending West
+            Ottawa HS, while also doing game development at
+            the Careerline Tech Center.</h3>
+        <h3 style="margin-left: 5%;margin-right: 5%;">On my own time, I enjoy tinkering with computers.
+            I’m constantly keeping myself updated on
+            technological announcements. Anything with the
+            physical hardware of a computer interests me. This
+            includes iPhones, Laptops, and PCs. To add on, I
+            have some interest in the knowledge of repairing a
+            device, but constructing a computer is still my
+            primary specialty as the components & research for
+            a custom built computer can be extensive.</h3>
+        <h3 style="margin-left: 5%;margin-right: 5%;">On a separate note, I also have business
+            management knowledge along with general finances
+            of a business. Along with human psychology to pair
+            up with business subjects.</h3>
+        <h3 style="margin-left: 5%;margin-right: 5%;">Thanks for checking this out!</h3>
         <button type="button" onclick="myMove5()" class="viewbutton" id="viewbutton5">skbidi test</button>
-        <button type="button" onclick="myReverseMove5()" class="reverseviewbutton" id="reverseviewbutton5" disabled>skbidi test2</button>
-    </div>
+        <button type="button" onclick="myReverseMove5()" class="reverseviewbutton" id="reverseviewbutton5"
+            disabled>skbidi test2</button>
+    </div>-
     <div class="view6">
         <h1>Contacts</h1>
+        <h2>Email: 26nnc01@westottawa.net</h2>
+        <h2>Phone Number: N/A</h2>
+        <br>
+        <form onsubmit="return false;">
+            <h3>Your Name: </h3>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <h3>Your Email: </h3>
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <h3>Message: </h3>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
         <button type="button" onclick="myMove6()" class="viewbutton" id="viewbutton6">skbidi test</button>
-        <button type="button" onclick="myReverseMove6()" class="reverseviewbutton" id="reverseviewbutton6" disabled>skbidi test2</button>
+        <button type="button" onclick="myReverseMove6()" class="reverseviewbutton" id="reverseviewbutton6"
+            disabled>skbidi test2</button>
     </div>
-    <nav>
-        test
-    </nav>
 </body>
+
 </html>

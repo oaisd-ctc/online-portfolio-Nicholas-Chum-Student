@@ -11,8 +11,10 @@ body {
 
     user-select: none;
 }
-body > div
-{
+
+body>div {
+    border: 3px solid black;
+    background-color: lightgray;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,15 +23,18 @@ body > div
     width: 38em;
     height: 52em;
 }
-div > *{
+
+div>* {
     text-align: center;
 }
-div > img{
+
+div>img {
     display: block;
     margin: auto;
     position: relative;
 }
-div > .viewbutton{
+
+div>.viewbutton {
     opacity: 0;
     display: none;
     display: block;
@@ -43,7 +48,8 @@ div > .viewbutton{
     top: 47.5%;
     left: 28.25%;
 }
-div > .reverseviewbutton{
+
+div>.reverseviewbutton {
     opacity: 0;
     display: none;
     display: block;
@@ -57,12 +63,31 @@ div > .reverseviewbutton{
     top: 47.5%;
     left: -65%;
 }
-h1{
+
+h1 {
     font-size: 5em;
 }
-h2{
+
+h2 {
     font-size: 2em;
-}/*
+}
+
+.view2>img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+.view3>img {
+    max-width: 20em;
+    max-height: 20em;
+}
+
+.view4>img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+/*
 .test {
     margin-left: -41em;
     rotate:-1deg;
@@ -87,36 +112,29 @@ h2{
 .view {
     rotate: 1deg;
     z-index: 6;
-
-    background-color: green;
 }
+
 .view2 {
     rotate: 2deg;
     z-index: 5;
-
-    background-color: aqua;
 }
+
 .view3 {
     rotate: 3deg;
     z-index: 4;
-
-    background-color: violet;
 }
+
 .view4 {
     rotate: 3deg;
     z-index: 3;
-
-    background-color: rgb(165, 14, 9);
 }
+
 .view5 {
     rotate: 3deg;
     z-index: 2;
-
-    background-color: rgb(99, 33, 116);
 }
+
 .view6 {
     rotate: 3deg;
     z-index: 1;
-
-    background-color: rgb(255, 252, 80);
 }
