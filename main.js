@@ -319,3 +319,112 @@ function myReverseMove6() {
         }
     }
 }
+function navHome() {
+    myReverseMove();
+    setTimeout(function() {
+        myReverseMove2();
+    }, 1000);
+    setTimeout(function() {
+        myReverseMove3();
+    }, 2000);
+    setTimeout(function() {
+        myReverseMove4();
+    }, 3000);
+    setTimeout(function() {
+        myReverseMove5();
+    }, 4000);
+    setTimeout(function() {
+        myReverseMove6();
+    }, 5000);
+}
+function navExperience() {
+    myReverseMove2();
+    setTimeout(function() {
+        myMove();
+    }, 1000);
+    setTimeout(function() {
+        myMove3();
+    }, 2000);
+    setTimeout(function() {
+        myMove4();
+    }, 3000);
+    setTimeout(function() {
+        myMove5();
+    }, 4000);
+    setTimeout(function() {
+        myMove6();
+    }, 5000);
+}
+function navProject() {
+    myReverseMove3();
+    setTimeout(function() {
+        myMove();
+    }, 1000);
+    setTimeout(function() {
+        myMove2();
+    }, 2000);
+    setTimeout(function() {
+        myMove4();
+    }, 3000);
+    setTimeout(function() {
+        myMove5();
+    }, 4000);
+    setTimeout(function() {
+        myMove6();
+    }, 5000);
+}
+
+function navCertifications() {
+    myReverseMove4();
+    setTimeout(function() {
+        myMove();
+    }, 1000);
+    setTimeout(function() {
+        myMove2();
+    }, 2000);
+    setTimeout(function() {
+        myMove3();
+    }, 3000);
+    setTimeout(function() {
+        myMove5();
+    }, 4000);
+    setTimeout(function() {
+        myMove6();
+    }, 5000);
+}
+function navAboutMe() {
+    myReverseMove5();
+    setTimeout(function() {
+        myMove();
+    }, 1000);
+    setTimeout(function() {
+        myMove2();
+    }, 2000);
+    setTimeout(function() {
+        myMove3();
+    }, 3000);
+    setTimeout(function() {
+        myMove4();
+    }, 4000);
+    setTimeout(function() {
+        myMove6();
+    }, 5000);
+}
+function navContacts() {
+    myReverseMove6();
+    setTimeout(function() {
+        myMove();
+    }, 1000);
+    setTimeout(function() {
+        myMove2();
+    }, 2000);
+    setTimeout(function() {
+        myMove3();
+    }, 3000);
+    setTimeout(function() {
+        myMove4();
+    }, 4000);
+    setTimeout(function() {
+        myMove5();
+    }, 5000);
+}

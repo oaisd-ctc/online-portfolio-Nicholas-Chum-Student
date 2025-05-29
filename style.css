@@ -11,6 +11,18 @@ body {
 
     user-select: none;
 }
+.nav {
+    border: 3px solid darkgray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 107%;
+    left: -1.6%;
+    width: 35em;
+    height: 2em;
+
+    rotate: -90deg;
+}
 
 body>div {
     border: 3px solid black;
